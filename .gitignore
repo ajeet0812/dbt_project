@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# dbt
+**/target/
+**/dbt_packages/
+**/logs/
+
+# dbt profiles / credentials
+**/profiles.yml
+**/profiles*.yml
+**/*credentials*.yml
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
